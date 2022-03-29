@@ -1,5 +1,7 @@
 import React from 'react';
 import { Text, SafeAreaView } from 'react-native';
+
+import CompPadrao, { Comp1, Comp2} from './components/Multi';
 import Primeiro from './components/Primeiro'
 
 // function App(){
@@ -20,6 +22,9 @@ import Primeiro from './components/Primeiro'
 export default () => (
                     <SafeAreaView>
                         <Text>{ 1 + 1}</Text>
+                        <CompPadrao></CompPadrao>
+                        <Comp1 /> 
+                        <Comp2 />
                         <Primeiro />
                      </SafeAreaView>
 )
