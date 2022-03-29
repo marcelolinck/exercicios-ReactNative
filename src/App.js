@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, SafeAreaView } from 'react-native';
+import Primeiro from './components/Primeiro'
 
 // function App(){
 //     return <Text>Primeiro Componente</Text>
@@ -16,4 +17,9 @@ import { Text } from 'react-native';
 //     return <Text>Componente montado com arrow function</Text>
 // }
 
-export default () => <Text>Componente montado com arrow function com simplificacao</Text>
+export default () => (
+                    <SafeAreaView>
+                        <Text>{ 1 + 1}</Text>
+                        <Primeiro />
+                     </SafeAreaView>
+)
