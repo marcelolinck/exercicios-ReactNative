@@ -1,14 +1,15 @@
 import React from 'react';
 import { Text } from 'react-native';
+import estilo from './estilo';
 
 export default function Comp(){
-    return <Text>Comp #Oficial</Text>
+    return <Text style={estilo.fontG}>Comp #Oficial</Text>
 }
 
 export function Comp1(){
-    return <Text>Comp #01</Text>
+    return <Text style={estilo.fontG}>Comp #01</Text>
 }
 
 export function Comp2(){
-    return <Text>Comp #02</Text>
+    return <Text style={estilo.fontG}>Comp #02</Text>
 }
