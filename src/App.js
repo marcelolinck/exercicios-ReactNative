@@ -1,38 +1,41 @@
-import React from 'react';
-import { Text, SafeAreaView, StyleSheet } from 'react-native';
+import React from 'react'
+import { SafeAreaView, StyleSheet } from 'react-native'
 
-import CompPadrao, { Comp1, Comp2} from './components/Multi';
-import Primeiro from './components/Primeiro'
+import MinMax from './components/MinMax';
+import Aleatorio from './components/Aleatorio';
+// import CompPadrao, { Comp1, Comp2 } from './components/Multi'
+// import Primeiro from './components/Primeiro'
 
-// function App(){
-//     return <Text>Primeiro Componente</Text>
-// }
-// -----------------------
-//Componente montado em cima e uma constante
-// const App = function(){
-//     return <Text>Componente montado por constante</Text>
-// }
-
-// export default App
-// -----------------------
-// export default () =>{
-//     return <Text>Componente montado com arrow function</Text>
-// }
 
 export default () => (
-                    <SafeAreaView style={style.App}>
-                        <Text>{ 1 + 1}</Text>
-                        <CompPadrao></CompPadrao>
-                        <Comp1 /> 
-                        <Comp2 />
-                        <Primeiro />
-                     </SafeAreaView>
+    <SafeAreaView style={style.App}>
+        {/* Se passar com par de chaves, ira dizer que é numerico
+        <MinMax min={3} max={20} />
+        
+        {/* Se passar com par de aspas, ira dizer que é string */}
+        {/* <MinMax min="2" max="94" /> */}
+        
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        
+        {/* <CompPadrao />
+        <Comp1 />
+        <Comp2 />
+        <Primeiro /> */}
+    </SafeAreaView>
 )
+
 const style = StyleSheet.create({
-    App:{
-        // backgroundColor: 'red',
+    App: {
         flexGrow: 1,
-        justifyContent: 'center',
+        justifyContent: "center",
         alignItems: "center",
-    }
+        padding: 20,
+        
+    },
+
 })
