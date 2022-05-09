@@ -1,5 +1,5 @@
 import React from 'react';
 import { Text } from 'react-native';
-import Estilo from './estilo'
+import Estilo from './Estilo'
 
 export default () => <Text style={Estilo.fontG}>Primeiro Componente!!</Text>

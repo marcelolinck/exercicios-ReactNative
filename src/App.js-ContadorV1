@@ -1,14 +1,17 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
-import DigiteSeuNome from './components/DigiteSeuNome'
+import Contador from './components/Contador'
 
-export default () =>
+export default () => 
 (
     <SafeAreaView style={style.App}>
-        <DigiteSeuNome />
+
+        {/* Com parametros setados */}
+        <Contador inicial={100} passo={12} />
+        {/* Sem dados passados via props */}
+        <Contador />
     </SafeAreaView>
 )
-// props.map() transforma um array em outro array com atributos modificado
 
 const style = StyleSheet.create({
     App: {
@@ -16,7 +19,7 @@ const style = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         padding: 20,
-
+        
     },
 
 })

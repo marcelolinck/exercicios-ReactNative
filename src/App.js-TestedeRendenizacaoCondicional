@@ -1,14 +1,17 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
-import DigiteSeuNome from './components/DigiteSeuNome'
+import UsuarioLogado from './components/UsuarioLogado'
 
 export default () =>
 (
     <SafeAreaView style={style.App}>
-        <DigiteSeuNome />
+        <UsuarioLogado usuario={{nome:'Gui', email:'gui@gui.com'}} />
+        <UsuarioLogado usuario={{nome:'Gui'}} />
+        <UsuarioLogado usuario={{email:'maria@maria.com'}} />
+        <UsuarioLogado usuario={null} />
+        <UsuarioLogado usuario={{}} />
     </SafeAreaView>
 )
-// props.map() transforma um array em outro array com atributos modificado
 
 const style = StyleSheet.create({
     App: {
