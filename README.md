@@ -10,7 +10,9 @@ NECESSÁRIO PARA RODAR:
 
 #Efetuado o clone é necessário acessar a pasta do projeto via terminal ou via Prompt de comando
 <br> $ cd YourDirectory/exercicios-ReactNative
+<p>
+O npm baixará todas as dependências e após isso
 <br> $ npm install
 <br> $ npm run android 
 <p> 
-O NPM baixará todas as dependências e após isso
+O npm baixará todas as dependências e após isso
