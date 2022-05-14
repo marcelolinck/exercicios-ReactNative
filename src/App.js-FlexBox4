@@ -1,12 +1,12 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
-import Mega from './components/mega/Mega'
+import FlexBoxV4 from './components/layout/FlexBoxV4'
 
 
 export default () =>
 (
     <SafeAreaView style={style.App}>
-        <Mega qtdeNumeros={7} />
+        <FlexBoxV4 />
     </SafeAreaView>
 )
 // props.map() transforma um array em outro array com atributos modificado
