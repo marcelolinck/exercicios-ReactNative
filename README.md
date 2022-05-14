@@ -5,7 +5,7 @@ Este app consiste no aprendizado do conceito de componentização do React-Nativ
 Para executá-lo basta efetuar o clone do projeto;
 
 NECESSÁRIO PARA RODAR:
--NODE JS
+<br> -NODE JS
 -NPM
 
 #Efetuado o clone é necessário acessar a pasta do projeto via terminal ou via Prompt de comando
