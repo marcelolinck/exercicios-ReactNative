@@ -13,6 +13,12 @@ NECESSÁRIO PARA RODAR:
 <p>
 O npm baixará todas as dependências e após isso
 <br> $ npm install
-<br> $ npm run android 
 <p> 
-O npm baixará todas as dependências e após isso
+#Para finalizar, primeiro abra seu emulador android e execute o comando abaixo
+<br> $ npm run android 
+  
+<p> 
+#Se for IOS, primeiro abra seu emulador IOS e execute o comando abaixo
+<br> $ npm run ios 
+
+
